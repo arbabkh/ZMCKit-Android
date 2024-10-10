@@ -54,8 +54,8 @@ class MainActivity : AppCompatActivity() {
 
         zmckitManager = ZMCKitManager()
         zmckitManager.init(
-            cameraKitApiToken = BuildConfig.CAMERA_KIT_API_TOKEN,
-            cameraKitApplicationId = "", // Your application ID
+            cameraKitApiToken = CAMERA_KIT_API_TOKEN, // Your API Token
+            cameraKitApplicationId = "", // Your application ID, can keep it blank
             lensGroupIds = LENS_GROUP_IDS // Your lens group IDs
         )
     }
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
         zmckitManager.init(
             cameraKitApiToken = BuildConfig.CAMERA_KIT_API_TOKEN,
             cameraKitApplicationId = "",
-            lensGroupIds = LENS_GROUP_IDS
+            lensGroupIds = BuildConfig.LENS_GROUP_IDS
         )
 
         // Button click to open camera

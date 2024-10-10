@@ -31,7 +31,7 @@ In your app-level `build.gradle` file, add the following dependency:
 
 ```groovy
 dependencies {
-    implementation 'com.snap:zmckit:1.0.0' // Update the version as necessary
+    implementation 'com.ziylanmedya:zmckit:1.0.0' // Update the version as necessary
 }
 ```
 
@@ -42,7 +42,7 @@ dependencies {
 In your main activity or wherever you want to use the camera functionality, initialize the `ZMCKitManager`:
 
 ```kotlin
-import com.snap.zmckit.ZMCKitManager
+import com.ziylanmedya.zmckit.ZMCKitManager
 
 class MainActivity : AppCompatActivity() {
 

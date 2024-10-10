@@ -117,12 +117,3 @@ class MainActivity : AppCompatActivity() {
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-### Additional Notes
-- **Customization**: Feel free to customize the README with additional sections, such as Features, Contributing, or FAQ, as needed.
-- **Usage Examples**: If you have specific examples or configurations, include them to help users understand how to utilize your library effectively.
-- **Badges**: Consider adding badges (like build status, license, etc.) at the top of your README for better visibility.
-
-Once you have this README drafted, you can save it in the root of your repository as `README.md`. This will provide users with a clear guide on how to use your `ZMCKit` library. Let me know if you need any further help!

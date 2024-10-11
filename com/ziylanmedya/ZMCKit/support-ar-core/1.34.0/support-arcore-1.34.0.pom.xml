@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ziylanmedya.ZMCKit</groupId>
+  <groupId>com.ziylanmedya.zmckit</groupId>
   <artifactId>support-arcore</artifactId>
   <version>1.34.0</version>
   <packaging>aar</packaging>
@@ -9,7 +9,7 @@
   <description>Provides Google's ArCore backed implementation of an ImageProcessor Source for the CameraKit SDK.</description>
   <dependencies>
     <dependency>
-      <groupId>org.jetbrains.kotlin</groupId>com.ziylanmedya.ZMCKit
+      <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib</artifactId>
       <version>1.8.10</version>
     </dependency>
@@ -19,17 +19,17 @@
       <version>1.39.0</version>
     </dependency>
     <dependency>
-      <groupId>com.ziylanmedya.ZMCKit</groupId>
+      <groupId>com.ziylanmedya.zmckit</groupId>
       <artifactId>support-camera-common</artifactId>
       <version>1.34.0</version>
     </dependency>
     <dependency>
-      <groupId>com.ziylanmedya.ZMCKit</groupId>
+      <groupId>com.ziylanmedya.zmckit</groupId>
       <artifactId>support-media-recording</artifactId>
       <version>1.27.0</version>
     </dependency>
     <dependency>
-      <groupId>com.ziylanmedya.ZMCKit</groupId>
+      <groupId>com.ziylanmedya.zmckit</groupId>
       <artifactId>camerakit</artifactId>
       <version>1.34.0</version>
     </dependency>
